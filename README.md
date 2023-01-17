@@ -90,6 +90,8 @@ alt="logo" width="140"  height="auto" />
 
 [Click Me](https://simple-chat-app-puqe.onrender.com)
 
+You can test the search function by searching for Seba or Juan.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
