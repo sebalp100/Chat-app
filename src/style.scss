@@ -1,3 +1,19 @@
+@mixin mobile {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
 .formContainer {
   background-color: dodgerblue;
   height: 100vh;
@@ -102,6 +118,9 @@
 
       .logo {
         font-weight: bold;
+        @include tablet {
+          display: none;
+        }
       }
 
       .user {
@@ -122,6 +141,10 @@
           font-size: 10px;
           border: none;
           cursor: pointer;
+          @include tablet {
+            position: absolute;
+            bottom: 10px;
+          }
         }
       }
 
@@ -201,6 +224,13 @@
         padding: 10px;
         height: calc(100% - 160px);
         overflow: scroll;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
 
         .message {
           display: flex;
