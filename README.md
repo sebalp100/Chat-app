@@ -6,8 +6,6 @@
 alt="logo" width="140"  height="auto" />
 <br/>
 
-  <h3><b>Simple Chat App</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -35,7 +33,7 @@ alt="logo" width="140"  height="auto" />
 
 # 📖 Simple Chat App <a name="about-project"></a>
 
-> In this project, I'm setting up website that allows users to chat with eachoter using real time data from Firebase. The app allows the user to search for their conversation history.
+> In this project, I'm creating a website that allows users to chat with one another using real-time Firebase data. The app allows users to look up their previous conversations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,8 +72,8 @@ alt="logo" width="140"  height="auto" />
 - Register User
 - Login User
 - Home page with search User functionality
-- Display latest message
-- Send new message
+- Display the latest message
+- Send a new message
 - Send Images
 - Display complete message history
 
@@ -195,10 +193,7 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Hat tip to anyone whose code was used
-- Paul Nasilele for his search bar tutorial
-- Freepik, Turkkub and Monkik for their icons (https://www.flaticon.com/authors/freepik, https://www.flaticon.com/authors/turkkub, https://www.flaticon.com/authors/monkik)
-- Nelson Sakwa for their design (https://www.behance.net/sakwadesignstudio)
-- Microverse
+- Lama Dev for his tutorials (https://www.youtube.com/@LamaDev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
